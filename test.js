@@ -1,7 +1,5 @@
-const.Blockchain = require('./Blockchain');
+const Blockchain = require("./blockchain");
 
-const bitcoin = new Block();
-
-bitcoin.CreatNewBlock(2389, 0INA90SDNF90N, '90ANSD9F0N9009N')
-
-console.log(bitcoin);
+let chainBoy = new Blockchain();
+let block = chainBoy.createNewBlock();
+console.log(block);
